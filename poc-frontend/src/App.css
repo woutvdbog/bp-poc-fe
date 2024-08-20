@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.map-container {
+  height: 50vh;
+  width: 100%;
+}
+
+.aircraft-tracker {
+  display: flex;
+  flex-direction: row;
+}
+
+.aircraft-table {
+  width: 25%;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.aircraft-table table {
+  width: 100%;
+}
+
+.aircraft-table th,
+.aircraft-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
