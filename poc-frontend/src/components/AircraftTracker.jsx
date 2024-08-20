@@ -6,7 +6,6 @@ import AircraftTable from "./AircraftTable";
 
 const AircraftTracker = () => {
   const aircraftList = useADSBWebsocket();
-  useEffect(() => {}, [aircraftList]);
 
   return (
     <div className="aircraft-tracker">

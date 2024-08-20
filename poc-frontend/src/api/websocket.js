@@ -56,7 +56,7 @@ export const useADSBWebsocket = () => {
           (aircraft) => Date.now() - aircraft.lastUpdated < 10000
         );
       });
-    }, 5000);
+    }, 1000);
 
     return () => clearInterval(interval);
   }, []);
